@@ -1,4 +1,10 @@
-@font-face {
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  @font-face {
     font-family: cutethin;
     src: url(../CuteThin.ttf);
   }
@@ -9,14 +15,27 @@ button {
 h2 {
     font-family: cutethin;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: cutethin;
+        src: url(../CuteThin.ttf);
+      }
+    
+    button {
+        font-family: cutethin;
+    }
+    h2 {
+        font-family: cutethin;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+    
+    img {
+        margin-top: 30%;
+    }
   }
-
-img {
-    margin-top: 30%;
-}
