@@ -14,11 +14,11 @@ function App() {
       <>
         <img className="center" src={gif} alt=""/>
         <h2 className="center">{text}</h2>
-        <button className="center"  style={{fontSize : `${yesBtnSize}%`,backgroundColor : "#4CBB17"}} onClick={()=>{
+        <button className="center"  style={{fontSize : `${yesBtnSize}%`,backgroundColor : "#26B023"}} onClick={()=>{
           setSayno(0)
         }}>Yes</button>
         <br />
-        <button className="nobtn center" style={{display : displayNoBtn,fontSize : "100%",backgroundColor : "red"}} onClick={()=>{
+        <button className="nobtn center" style={{display : displayNoBtn,fontSize : "100%",backgroundColor : "#CF3B3B"}} onClick={()=>{
           setSayno(sayNo + 1)
           setYesBtnSize(yesBtnSize + 100)
           if(sayNo >= 1 && sayNo < 3){
